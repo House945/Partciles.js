@@ -1,0 +1,67 @@
+{
+    "particles":{
+        "number":{
+            "value":200
+        },
+        "color":{
+            "value":"000"
+        },
+        "shape":{
+            "type": "circle",
+            "stroke":{
+                "width":1,
+                "color":"#ccc"
+            },
+            "image":{
+                "src": "https://icon-library.com/images/photography-icon-png/photography-icon-png-7.jpg"
+            }
+        },
+        "opacity":{
+            "value":0.5,
+            "random":true,
+            "anim":{
+                "enable":true,
+                "speed":0.5
+            }
+        },
+        "size":{
+            "value": 5,
+            "random": true,
+            "anim":{
+                "enable":false,
+                "speed":10
+            }
+        },
+        "line_linked":{
+            "enable": true,
+            "distance": 120,
+            "color": "#000",
+            "width":1
+        },
+        "move":{
+            "enable":true,
+            "speed":1.5,
+            "direction":"none"
+        }
+    },
+    "interactivity":{
+        "events":{
+            "onhover":{
+                "enable":true,
+                "mode":"repulse"
+            },
+            "onclick":{
+                "enable":true,
+                "mode":"push"
+            }
+        },
+        "modes":{
+            "repulse":{
+                "distance": 25,
+                "duration": 300
+            },
+            "bubble":100,
+            "size":100
+        }
+    }
+}
